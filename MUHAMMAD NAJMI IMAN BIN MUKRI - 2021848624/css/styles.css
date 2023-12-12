@@ -1,0 +1,76 @@
+body {
+font-family: roboto, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #D3D3D3;
+}
+nav {
+background-color: #001F3F;
+padding: 10px;
+box-sizing: border-box;
+margin: 0;
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+background-color: #001F3F;
+overflow: hidden;
+}
+nav li {
+display: inline-block;
+margin: 0;
+}
+nav li a, .dropdown-content a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+white-space: nowrap;
+}
+nav li a:hover, .dropdown-content a:hover {
+background-color: #00283f;
+}
+.dropdown {
+display: inline-block;
+}
+.dropdown-button {
+display: inline;
+color: white;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+cursor: pointer;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #001F3F;
+min-width: 160px;
+z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+main{
+background-color: #001F3F;
+color: #D3D3D3;
+padding: 20px;
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: bold;
+}
+#musicControl {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+footer {
+background-color: #001F3F;
+color: #D3D3D3;
+text-align: center;
+padding: 10px;
+}
